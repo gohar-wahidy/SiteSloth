@@ -1,6 +1,6 @@
 # 🦥 SiteSloth: A Domain-based Internet Throttler
 
-SiteSloth is a tool designed to throttle internet speed for specific domains using `mitmproxy`. It allows users to specify websites and throttle speeds, providing a controlled browsing experience.
+SiteSloth is a tool designed to throttle internet speed for specific domains using `mitmproxy`. It allows users to specify websites and throttle speeds, providing a controlled browsing experience. Ideal for students, teachers, parents, bosses, developers, and testers who want to limit access to distracting websites or slow down access to selected domains.
 
 ## Features
 
