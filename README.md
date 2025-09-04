@@ -87,7 +87,40 @@ SiteSloth is a tool designed to throttle internet speed for specific domains usi
 4. **Verify installation**:
    - Test mitmproxy by intercepting HTTPS traffic in a browser.
 
-## Usage
+### Configuring System Proxy Settings
+
+Before starting SiteSloth, you need to configure your system to use the proxy:
+
+## macOS
+Go to System Preferences → Network
+Select your active network connection (Wi-Fi or Ethernet)
+Click Advanced → Proxies
+Check "Web Proxy (HTTP)" and set:
+Web Proxy Server: localhost
+Port: 8080
+Check "Secure Web Proxy (HTTPS)" and set:
+Secure Web Proxy Server: localhost
+Port: 8080
+Click OK → Apply
+
+## Windows
+Go to Settings → Network & Internet → Proxy
+Under Manual proxy setup, toggle "Use a proxy server"
+Set:
+Address: localhost
+Port: 8080
+Check "Don't use the proxy server for local (intranet) addresses"
+Click Save
+
+## Linux (GNOME)
+Go to Settings → Network → Network Proxy
+Select Manual
+For HTTP Proxy and HTTPS Proxy, set:
+Host: localhost
+Port: 8080
+Click Apply System Wide
+
+### Usage
 
 1. **Run SiteSloth**:
    - **macOS**: Double-click `SiteSlothMac.command`.
